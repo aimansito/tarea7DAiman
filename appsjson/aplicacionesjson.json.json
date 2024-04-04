@@ -1,0 +1,304 @@
+{
+  "apps" : [ {
+    "codApp" : 1,
+    "nombre" : "app1X",
+    "descripcion" : "SmartGit",
+    "tamaño" : 889.5309801029441,
+    "numDescargas" : 13163
+  }, {
+    "codApp" : 2,
+    "nombre" : "app2d",
+    "descripcion" : "Reloj",
+    "tamaño" : 418.6735999980674,
+    "numDescargas" : 6841
+  }, {
+    "codApp" : 3,
+    "nombre" : "app3g",
+    "descripcion" : "Reloj",
+    "tamaño" : 869.6002603595625,
+    "numDescargas" : 8237
+  }, {
+    "codApp" : 4,
+    "nombre" : "app4u",
+    "descripcion" : "Hoja de cálculo",
+    "tamaño" : 364.3829619081845,
+    "numDescargas" : 21325
+  }, {
+    "codApp" : 5,
+    "nombre" : "app5J",
+    "descripcion" : "Hoja de cálculo",
+    "tamaño" : 750.2840443991222,
+    "numDescargas" : 1152
+  }, {
+    "codApp" : 6,
+    "nombre" : "app6E",
+    "descripcion" : "Hoja de cálculo",
+    "tamaño" : 426.53749109925576,
+    "numDescargas" : 3345
+  }, {
+    "codApp" : 7,
+    "nombre" : "app7V",
+    "descripcion" : "Google Classroom",
+    "tamaño" : 246.38627988682188,
+    "numDescargas" : 40311
+  }, {
+    "codApp" : 8,
+    "nombre" : "app8j",
+    "descripcion" : "Google Classroom",
+    "tamaño" : 122.38591840608585,
+    "numDescargas" : 29185
+  }, {
+    "codApp" : 9,
+    "nombre" : "app9H",
+    "descripcion" : "Calendario",
+    "tamaño" : 957.3020948750651,
+    "numDescargas" : 12714
+  }, {
+    "codApp" : 10,
+    "nombre" : "app10c",
+    "descripcion" : "SmartGit",
+    "tamaño" : 471.72656237793433,
+    "numDescargas" : 907
+  }, {
+    "codApp" : 11,
+    "nombre" : "app11m",
+    "descripcion" : "Aplicación de juegos",
+    "tamaño" : 294.7203319197323,
+    "numDescargas" : 18566
+  }, {
+    "codApp" : 12,
+    "nombre" : "app12d",
+    "descripcion" : "Documentos de texto",
+    "tamaño" : 897.990080706633,
+    "numDescargas" : 29799
+  }, {
+    "codApp" : 13,
+    "nombre" : "app13o",
+    "descripcion" : "Hoja de cálculo",
+    "tamaño" : 786.0625817434751,
+    "numDescargas" : 47512
+  }, {
+    "codApp" : 14,
+    "nombre" : "app14C",
+    "descripcion" : "Presentaciones",
+    "tamaño" : 644.1766882202846,
+    "numDescargas" : 8600
+  }, {
+    "codApp" : 15,
+    "nombre" : "app15w",
+    "descripcion" : "SmartGit",
+    "tamaño" : 357.7314707911162,
+    "numDescargas" : 15618
+  }, {
+    "codApp" : 16,
+    "nombre" : "app16G",
+    "descripcion" : "Reloj",
+    "tamaño" : 600.6587127109102,
+    "numDescargas" : 35453
+  }, {
+    "codApp" : 17,
+    "nombre" : "app17M",
+    "descripcion" : "Presentaciones",
+    "tamaño" : 721.6766593991467,
+    "numDescargas" : 21821
+  }, {
+    "codApp" : 18,
+    "nombre" : "app18i",
+    "descripcion" : "Google Classroom",
+    "tamaño" : 620.3440881181546,
+    "numDescargas" : 6495
+  }, {
+    "codApp" : 19,
+    "nombre" : "app19p",
+    "descripcion" : "Presentaciones",
+    "tamaño" : 633.2318876447148,
+    "numDescargas" : 12494
+  }, {
+    "codApp" : 20,
+    "nombre" : "app20t",
+    "descripcion" : "Google Classroom",
+    "tamaño" : 570.1667080013317,
+    "numDescargas" : 9783
+  }, {
+    "codApp" : 21,
+    "nombre" : "app21q",
+    "descripcion" : "Google Classroom",
+    "tamaño" : 633.0081482567862,
+    "numDescargas" : 29622
+  }, {
+    "codApp" : 22,
+    "nombre" : "app22l",
+    "descripcion" : "Alarma",
+    "tamaño" : 871.3472681049902,
+    "numDescargas" : 15520
+  }, {
+    "codApp" : 23,
+    "nombre" : "app23B",
+    "descripcion" : "Google Classroom",
+    "tamaño" : 625.5352374885022,
+    "numDescargas" : 39286
+  }, {
+    "codApp" : 24,
+    "nombre" : "app24R",
+    "descripcion" : "Alarma",
+    "tamaño" : 905.9355843340277,
+    "numDescargas" : 6241
+  }, {
+    "codApp" : 25,
+    "nombre" : "app25P",
+    "descripcion" : "Hoja de cálculo",
+    "tamaño" : 674.120771855043,
+    "numDescargas" : 40752
+  }, {
+    "codApp" : 26,
+    "nombre" : "app26N",
+    "descripcion" : "Calendario",
+    "tamaño" : 815.5955856236021,
+    "numDescargas" : 42536
+  }, {
+    "codApp" : 27,
+    "nombre" : "app27n",
+    "descripcion" : "Presentaciones",
+    "tamaño" : 541.5870007474113,
+    "numDescargas" : 47830
+  }, {
+    "codApp" : 28,
+    "nombre" : "app28v",
+    "descripcion" : "Google Classroom",
+    "tamaño" : 494.1378693399913,
+    "numDescargas" : 18091
+  }, {
+    "codApp" : 29,
+    "nombre" : "app29M",
+    "descripcion" : "Aplicación de juegos",
+    "tamaño" : 243.11626941004562,
+    "numDescargas" : 27025
+  }, {
+    "codApp" : 30,
+    "nombre" : "app30x",
+    "descripcion" : "Presentaciones",
+    "tamaño" : 173.61986516642736,
+    "numDescargas" : 5041
+  }, {
+    "codApp" : 31,
+    "nombre" : "app31V",
+    "descripcion" : "Aplicación de juegos",
+    "tamaño" : 182.85834188738897,
+    "numDescargas" : 4738
+  }, {
+    "codApp" : 32,
+    "nombre" : "app32l",
+    "descripcion" : "SmartGit",
+    "tamaño" : 420.1805466035544,
+    "numDescargas" : 2670
+  }, {
+    "codApp" : 33,
+    "nombre" : "app33G",
+    "descripcion" : "Alarma",
+    "tamaño" : 690.3942136654567,
+    "numDescargas" : 6494
+  }, {
+    "codApp" : 34,
+    "nombre" : "app34k",
+    "descripcion" : "Presentaciones",
+    "tamaño" : 265.27574383345234,
+    "numDescargas" : 14811
+  }, {
+    "codApp" : 35,
+    "nombre" : "app35j",
+    "descripcion" : "SmartGit",
+    "tamaño" : 533.6625804931034,
+    "numDescargas" : 46828
+  }, {
+    "codApp" : 36,
+    "nombre" : "app36H",
+    "descripcion" : "SmartGit",
+    "tamaño" : 265.5827214993442,
+    "numDescargas" : 38873
+  }, {
+    "codApp" : 37,
+    "nombre" : "app37u",
+    "descripcion" : "Hoja de cálculo",
+    "tamaño" : 891.1094087911263,
+    "numDescargas" : 13329
+  }, {
+    "codApp" : 38,
+    "nombre" : "app38b",
+    "descripcion" : "Documentos de texto",
+    "tamaño" : 658.4925323271831,
+    "numDescargas" : 31106
+  }, {
+    "codApp" : 39,
+    "nombre" : "app39L",
+    "descripcion" : "Aplicación de juegos",
+    "tamaño" : 244.3530849816143,
+    "numDescargas" : 2873
+  }, {
+    "codApp" : 40,
+    "nombre" : "app40J",
+    "descripcion" : "Aplicación de juegos",
+    "tamaño" : 482.7324054123901,
+    "numDescargas" : 10644
+  }, {
+    "codApp" : 41,
+    "nombre" : "app41B",
+    "descripcion" : "Documentos de texto",
+    "tamaño" : 465.0269616181191,
+    "numDescargas" : 23949
+  }, {
+    "codApp" : 42,
+    "nombre" : "app42X",
+    "descripcion" : "Presentaciones",
+    "tamaño" : 813.5958465604745,
+    "numDescargas" : 18973
+  }, {
+    "codApp" : 43,
+    "nombre" : "app43L",
+    "descripcion" : "Reloj",
+    "tamaño" : 654.0126533263893,
+    "numDescargas" : 3061
+  }, {
+    "codApp" : 44,
+    "nombre" : "app44W",
+    "descripcion" : "Reloj",
+    "tamaño" : 975.0373359205885,
+    "numDescargas" : 10289
+  }, {
+    "codApp" : 45,
+    "nombre" : "app45G",
+    "descripcion" : "Calendario",
+    "tamaño" : 306.5036013189857,
+    "numDescargas" : 46243
+  }, {
+    "codApp" : 46,
+    "nombre" : "app46a",
+    "descripcion" : "Hoja de cálculo",
+    "tamaño" : 826.3526928431769,
+    "numDescargas" : 23128
+  }, {
+    "codApp" : 47,
+    "nombre" : "app47A",
+    "descripcion" : "Presentaciones",
+    "tamaño" : 295.1773343643214,
+    "numDescargas" : 45577
+  }, {
+    "codApp" : 48,
+    "nombre" : "app48A",
+    "descripcion" : "Reloj",
+    "tamaño" : 825.4435374589767,
+    "numDescargas" : 8278
+  }, {
+    "codApp" : 49,
+    "nombre" : "app49h",
+    "descripcion" : "Hoja de cálculo",
+    "tamaño" : 885.2186034035961,
+    "numDescargas" : 15586
+  }, {
+    "codApp" : 50,
+    "nombre" : "app50G",
+    "descripcion" : "Reloj",
+    "tamaño" : 695.0310668944242,
+    "numDescargas" : 22145
+  } ],
+  "nombre" : null
+}

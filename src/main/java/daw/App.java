@@ -5,6 +5,7 @@
 package daw;
 import java.time.LocalDate;
 import java.text.DecimalFormat;
+import java.util.ArrayList;
 import java.util.Random;
 import java.util.stream.DoubleStream;
 import java.util.stream.IntStream;
@@ -69,6 +70,20 @@ public class App {
         return descripciones[num];
     } 
     
+    public static ArrayList<App> crearApps(){
+        ArrayList<App> apps = new ArrayList<>();
+        for (int i = 0; i < 50; i++) {
+            apps.add(new App());
+        }
+        return apps;
+    }
+    
+    public static void mostrarApps(ArrayList<App> apps){
+        for (App app : apps) {
+            System.out.println(app);
+        }
+        System.out.println("--------------");
+    }
 
     public int getCodApp() {
         return codApp;
