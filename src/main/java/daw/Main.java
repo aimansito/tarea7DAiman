@@ -4,29 +4,19 @@
  */
 package daw;
 
-import java.io.File;
-import java.io.FileWriter;
 import java.io.IOException;
-import java.nio.file.AccessDeniedException;
-import java.nio.file.FileAlreadyExistsException;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.util.ArrayList;
-import java.util.List;
-import java.util.logging.Level;
-import java.util.logging.Logger;
-import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
-import javax.xml.bind.Marshaller;
 
 /**
  *
  * @author aiman
  */
 public class Main {
+
     public static void main(String[] args) {
         ArrayList<App> apps = App.crearApps();
+        App app1 = new App();
         CatalogoApps catApps = new CatalogoApps();
         catApps.setApps(apps);
         //Crea 50 aplicaciones usando el constructor por defecto, guárdalas 
@@ -45,22 +35,25 @@ public class Main {
         //aplicacionesxml.xml, dentro del directorio “./appsxml”. Ayúdate del ejemplo
         //del repositorio de clase. Incluye las dependencias necesarias en el pom.xml
         Directorios.crearDirectorio("./appsxml");
-        try{
+        try {
             Xml.crearXML(apps, "aplicacionesxml.xml");
-        }catch(JAXBException jaxbe){
+        } catch (JAXBException jaxbe) {
             System.out.println("Error");
         }
         //Guarda los datos de todas las App de la lista, en un fichero JSON llamado 
         //aplicacionesxml.json, dentro del directorio “./appsjson”. Ayúdate del 
         //ejemplo del repositorio de clase. Incluye las dependencias necesarias en el pom.xml.
         Directorios.crearDirectorio("./appsjson");
-        try{
-            Json.crearJson(catApps, "aplicacionesjson.json");
+        try {
+            Json.crearJson(app1, "aplicacionesjson.json");
         } catch (IOException ex) {
             System.out.println("Error");
         }
         //Crea una carpeta “./copias” y realiza una copia de los ficheros anteriores dentro de ella.
         Directorios.crearDirectorio("./copias");
+        Copias.copiarFicheros("./appscsv/aplicacionestxt.csv", "./copias/ficheroCopia.csv");
+        Copias.copiarFicheros("./appsxml/aplicacionesxml.xml", "./copias/ficheroCopiasxml.csv");
+        Copias.copiarFicheros("./appscsv2", ",/copias/ficheroCopiasJSON");
         //En una carpeta “./aplicaciones” crea un archivo de texto por cada 
         //aplicación que haya en la lista. El archivo se llamará igual que la app 
         //y contendrá los datos de la aplicación, separando los campos por el carácter (;).
@@ -69,6 +62,6 @@ public class Main {
         //Guarda los datos de todas las App de la lista, en un fichero JSON llamado 
         //aplicacionesxml.json, dentro del directorio “./appsjson”. Ayúdate del ejemplo del repositorio de clase. Incluye las dependencias necesarias en el pom.xml.
         Directorios.crearDirectorio("./appsjson");
-        
+
     }
 }

@@ -15,7 +15,7 @@ import java.io.IOException;
  * @author aiman
  */
 public class Json {
-    public static void crearJson(CatalogoApps apps,String nombre) throws IOException{
+    public static void crearJson(App apps,String nombre) throws IOException{
         ObjectMapper mapeador = new ObjectMapper();
         
         // Permite a mapeador usar fechas según java time
@@ -27,4 +27,5 @@ public class Json {
         // Escribe en un fichero JSON el catálogo de apps
         mapeador.writeValue(new File("./appsjson/"+nombre+".json"), apps);
     }
+    
 }
